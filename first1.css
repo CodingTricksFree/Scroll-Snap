@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow-x: scroll; /* Enable horizontal scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent line breaks */
+
+}
+
+.scroll-content {
+    display: inline-block;
+}
+
+
+.scroll-content img {
+    display: inline-block;
+    width: 70%;
+    /* Adjust the width as per your requirements */
+    height: auto;
+    margin-top: 300px;
+    margin-right: 50px;
+    margin-bottom: 500px;
+    /* Adjust the spacing between images */
+}
